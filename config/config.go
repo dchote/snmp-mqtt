@@ -37,9 +37,6 @@ var (
 	// ClientID is how the name of the client
 	ClientID string
 
-	// TopicPrefix is just that, a prefix for the presented data keys
-	TopicPrefix string
-
 	// Interval is the poll interval in seconds
 	Interval int
 )

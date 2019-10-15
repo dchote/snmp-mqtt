@@ -6,11 +6,19 @@
       "oidTopics": [
         {
           "oid": ".1.3.6.1.2.1.31.1.1.1.6.4",
-          "topic": "router/bytesIn"
+          "topic": "network/router/interfaces/wan/bytesIn"
         },
         {
           "oid": ".1.3.6.1.2.1.31.1.1.1.10.4",
-          "topic": "router/bytesOut"
+          "topic": "network/router/interfaces/wan/bytesOut"
+        },
+        {
+          "oid": ".1.3.6.1.2.1.31.1.1.1.6.2",
+          "topic": "network/router/interfaces/lan/bytesIn"
+        },
+        {
+          "oid": ".1.3.6.1.2.1.31.1.1.1.10.2",
+          "topic": "network/router/interfaces/lan/bytesOut"
         }
       ]
     },
@@ -20,11 +28,11 @@
       "oidTopics": [
         {
           "oid": ".1.3.6.1.4.1.318.1.1.12.2.3.1.1.2.1",
-          "topic": "rackPDU/totalLoad"
+          "topic": "power/rackPDU/outputCurrentX10"
         },
         {
           "oid": ".1.3.6.1.4.1.318.1.1.12.1.16.0",
-          "topic": "rackPDU/watts"
+          "topic": "power/rackPDU/watts"
         }
       ]
     },
@@ -34,23 +42,23 @@
       "oidTopics": [
         {
           "oid": ".1.3.6.1.4.1.318.1.1.1.3.2.1.0",
-          "topic": "rackUPS/lineVoltage"
+          "topic": "power/rackUPS/lineVoltage"
         },
         {
           "oid": ".1.3.6.1.4.1.318.1.1.1.4.2.4.0",
-          "topic": "rackUPS/outputCurrent"
+          "topic": "power/rackUPS/outputCurrent"
         },
         {
           "oid": ".1.3.6.1.4.1.318.1.1.1.2.2.1.0",
-          "topic": "rackUPS/batteryCapacity"
+          "topic": "power/rackUPS/batteryCapacity"
         },
         {
           "oid": ".1.3.6.1.4.1.318.1.1.1.2.2.3.0",
-          "topic": "rackUPS/batteryRuntime"
+          "topic": "power/rackUPS/batteryRuntime"
         },
         {
           "oid": ".1.3.6.1.4.1.318.1.1.1.2.2.2.0",
-          "topic": "rackUPS/batteryTemperature"
+          "topic": "power/rackUPS/batteryTemperature"
         }
       ]
     },
@@ -60,23 +68,23 @@
       "oidTopics": [
         {
           "oid": ".1.3.6.1.4.1.318.1.1.1.3.2.1.0",
-          "topic": "printerUPS/lineVoltage"
+          "topic": "power/printerUPS/lineVoltage"
         },
         {
           "oid": ".1.3.6.1.4.1.318.1.1.1.4.2.4.0",
-          "topic": "printerUPS/outputCurrent"
+          "topic": "power/printerUPS/outputCurrent"
         },
         {
           "oid": ".1.3.6.1.4.1.318.1.1.1.2.2.1.0",
-          "topic": "printerUPS/batteryCapacity"
+          "topic": "power/printerUPS/batteryCapacity"
         },
         {
           "oid": ".1.3.6.1.4.1.318.1.1.1.2.2.3.0",
-          "topic": "printerUPS/batteryRuntime"
+          "topic": "power/printerUPS/batteryRuntime"
         },
         {
           "oid": ".1.3.6.1.4.1.318.1.1.1.2.2.2.0",
-          "topic": "printerUPS/batteryTemperature"
+          "topic": "power/printerUPS/batteryTemperature"
         }
       ]
     }

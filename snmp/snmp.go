@@ -73,7 +73,7 @@ func Init() {
 								}
 
 								log.Printf("%s = %s", oidTopic.Topic, convertedValue)
-								token := client.Publish(config.TopicPrefix+"/"+oidTopic.Topic, 0, false, convertedValue)
+								token := client.Publish(oidTopic.Topic, 0, false, convertedValue)
 
 								token.Wait()
 								if token.Error() != nil {
