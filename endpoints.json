@@ -1,0 +1,84 @@
+{
+  "snmpEndpoints": [
+    {
+      "endpoint": "172.18.0.1",
+      "community": "public",
+      "oidTopics": [
+        {
+          "oid": ".1.3.6.1.2.1.31.1.1.1.6.4",
+          "topic": "router/bytesIn"
+        },
+        {
+          "oid": ".1.3.6.1.2.1.31.1.1.1.10.4",
+          "topic": "router/bytesOut"
+        }
+      ]
+    },
+    {
+      "endpoint": "172.18.0.50",
+      "community": "public",
+      "oidTopics": [
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.12.2.3.1.1.2.1",
+          "topic": "rackPDU/totalLoad"
+        },
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.12.1.16.0",
+          "topic": "rackPDU/watts"
+        }
+      ]
+    },
+    {
+      "endpoint": "172.18.0.51",
+      "community": "public",
+      "oidTopics": [
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.1.3.2.1.0",
+          "topic": "rackUPS/lineVoltage"
+        },
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.1.4.2.4.0",
+          "topic": "rackUPS/outputCurrent"
+        },
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.1.2.2.1.0",
+          "topic": "rackUPS/batteryCapacity"
+        },
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.1.2.2.3.0",
+          "topic": "rackUPS/batteryRuntime"
+        },
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.1.2.2.2.0",
+          "topic": "rackUPS/batteryTemperature"
+        }
+      ]
+    },
+    {
+      "endpoint": "172.18.0.52",
+      "community": "public",
+      "oidTopics": [
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.1.3.2.1.0",
+          "topic": "printerUPS/lineVoltage"
+        },
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.1.4.2.4.0",
+          "topic": "printerUPS/outputCurrent"
+        },
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.1.2.2.1.0",
+          "topic": "printerUPS/batteryCapacity"
+        },
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.1.2.2.3.0",
+          "topic": "printerUPS/batteryRuntime"
+        },
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.1.2.2.2.0",
+          "topic": "printerUPS/batteryTemperature"
+        }
+      ]
+    }
+  ]
+}
