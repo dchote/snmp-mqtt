@@ -8,9 +8,6 @@ builds:
     - CGO_ENABLED=0
   goos:
     - linux
-    - darwin
   goarch:
     - arm
-    - arm64
     - amd64
-    - 386
