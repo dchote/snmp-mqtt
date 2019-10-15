@@ -6,18 +6,20 @@ import (
 	"strconv"
 )
 
+// OIDTopicObject maps OIDs to MQTT topics
 type OIDTopicObject struct {
 	OID   string `json:"oid"`
 	Topic string `json:"topic"`
 }
 
+// SNMPEndpointObject is the SNMP Endpoint definition
 type SNMPEndpointObject struct {
 	Endpoint  string           `json:"endpoint"`
 	Community string           `json:"community"`
 	OIDTopics []OIDTopicObject `json:"oidTopics"`
 }
 
-// SNMPConfig basic config
+// SNMPMapObject basic map of endpoints
 type SNMPMapObject struct {
 	SNMPEndpoints []SNMPEndpointObject `json:"snmpEndpoints"`
 }
