@@ -47,7 +47,7 @@ func Init() {
 				snmp.Timeout = time.Duration(5 * time.Second)
 				err := snmp.Connect()
 				if err != nil {
-					log.Fatal("SNMP Connect err: %v\n", err)
+					log.Fatal("SNMP Connect error\n")
 				}
 
 				oids := []string{}
