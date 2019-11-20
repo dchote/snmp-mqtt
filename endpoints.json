@@ -87,6 +87,36 @@
           "topic": "power/printerUPS/batteryTemperature"
         }
       ]
+    },
+    {
+      "endpoint": "172.18.0.53",
+      "community": "public",
+      "oidTopics": [
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.1.3.2.1.0",
+          "topic": "power/dansDesk/lineVoltage"
+        },
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.1.4.2.4.0",
+          "topic": "power/dansDesk/outputCurrent"
+        },
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.1.2.2.1.0",
+          "topic": "power/dansDesk/batteryCapacity"
+        },
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.1.2.2.3.0",
+          "topic": "power/dansDesk/batteryRuntime"
+        },
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.1.2.2.2.0",
+          "topic": "power/dansDesk/batteryTemperature"
+        },
+        {
+          "oid": ".1.3.6.1.4.1.318.1.1.10.2.3.2.1.4.1",
+          "topic": "power/dansDesk/temperatureProbe"
+        }
+      ]
     }
   ]
 }
